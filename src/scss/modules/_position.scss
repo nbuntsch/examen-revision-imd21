@@ -1,0 +1,51 @@
+#positions-b1 {
+  .positionB1A-box {
+    position: relative;
+    left: 50px;
+  }
+
+  .positionB1B-box {
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+  }
+}
+
+#positions-b2 {
+  .positionB1B-box {
+    position: absolute;
+    bottom: 7px;
+    left: 39px;
+  }
+  .positionB1C-box {
+    position: absolute;
+    bottom: -14px;
+    left: 66px;
+  }
+  .yellow-case {
+    position: relative;
+  }
+}
+
+.positionB-box {
+  background-color: #eb5e27;
+  border: 1px solid #013047;
+  color: #013047;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95px;
+  height: 95px;
+}
+
+.mini-position-box {
+  background-color: #e9c469;
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
