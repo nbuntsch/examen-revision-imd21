@@ -1,0 +1,58 @@
+#positions-b1 {
+  .boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .box {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 20px 40px;
+  }
+
+  .box1 {
+    margin-left: 40px;
+  }
+
+  .box2 {
+    position: relative;
+    top: -20px;
+    left: 20px;
+  }
+}
+
+#positions-b2 {
+  .boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .box {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 20px 40px;
+  }
+
+  .box1 {
+    position: relative;
+  }
+
+  .little-box {
+    background-color: purple;
+    border: 1px solid black;
+    padding: 8px 12px;
+    position: absolute;
+  }
+
+  .box2 {
+    bottom: 8px;
+    right: 8px;
+  }
+
+  .box3 {
+    bottom: -16px;
+    right: -16px;
+  }
+}

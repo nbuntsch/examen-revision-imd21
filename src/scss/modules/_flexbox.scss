@@ -1,0 +1,40 @@
+#flexbox-b1 {
+  .boxs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .box {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 20px 40px;
+  }
+}
+
+#flexbox-b2 {
+  .boxs {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+  }
+  .box {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 20px 40px;
+  }
+}
+
+#flexbox-b3 {
+  .boxs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    background-color: orange;
+    border: 1px solid black;
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
