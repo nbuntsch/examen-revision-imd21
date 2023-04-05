@@ -122,17 +122,26 @@ h3 {
 
 .parent {
   position: relative;
-  //   border: solid 1px;
-  //   padding: 20px;
+  border: solid 1px;
+  padding: 20px;
   background-color: rgb(237, 82, 31);
-  //   text-align: center;
+  text-align: center;
 }
-.child {
+.child-1 {
   position: absolute;
-  top: 30px;
-  right: 30px;
-  // border: solid 1px;
-  // padding: 3px;
+  top: 5630px;
+  right: 430px;
+  border: solid 1px;
+  padding: 3px;
+  background-color: rgb(203, 159, 16);
+}
+
+.child-2 {
+  position: absolute;
+  top: 5603px;
+  right: 730px;
+  border: solid 1px;
+  padding: 3px;
   background-color: rgb(203, 159, 16);
 }
 
