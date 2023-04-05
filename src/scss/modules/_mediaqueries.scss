@@ -7,6 +7,7 @@
 
   .Desktop {
     font-weight: bold;
+    font-size: 20px;
   }
 
   @media (max-width: 992px) {
@@ -21,11 +22,12 @@
     background-color: aqua;
     width: 20px;
     height: 20px;
+    text-align: left;
   }
 
   .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
   }
 
