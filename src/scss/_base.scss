@@ -75,6 +75,22 @@ h3 {
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+.element {
+  border: solid 1px;
+  padding: 20px;
+  background-color: rgb(237, 82, 31);
+  text-align: center;
+}
+.relative-element {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  border: solid 1px;
+  padding: 20px;
+  background-color: rgb(237, 82, 31);
+  text-align: center;
+}
 /* ====================================
 // base rules
 // ==================================== */
