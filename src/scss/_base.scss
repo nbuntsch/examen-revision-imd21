@@ -44,6 +44,18 @@ h2 {
 h3 {
   margin: 0;
 }
+
+.flexboxA {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexbox-A {
+  border: solid 1px;
+  padding: 20px;
+  background-color: rgb(61, 134, 198);
+}
+
 /* ====================================
 // base rules
 // ==================================== */
