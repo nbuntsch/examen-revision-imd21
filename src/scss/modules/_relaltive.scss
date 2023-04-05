@@ -1,0 +1,28 @@
+#positions-c1 {
+  .fixed-element {
+    padding: 30px;
+    background: orange;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    border: black solid 2px;
+  }
+
+  .a {
+    left: 100px;
+  }
+
+  .b {
+    top: 20;
+    left: 20px;
+    z-index: 1;
+  }
+
+  .child {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.289);
+    width: 100%;
+    right: 0px;
+    bottom: 0px;
+  }
+}
