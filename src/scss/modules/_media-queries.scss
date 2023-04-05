@@ -1,0 +1,37 @@
+#mediaqueries-b1 {
+  h2,
+  h3 {
+    font-weight: 200;
+  }
+
+  @media (min-width: 1000px) {
+    h2 {
+      font-size: 40px;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    h3 {
+      margin-left: 20px;
+      font-size: 25px;
+    }
+  }
+}
+
+#mediaqueries-b2 {
+  p {
+    font-size: 30px;
+  }
+  @media (min-width: 1000px) {
+    .mobile {
+      display: none;
+    }
+  }
+  @media (max-width: 1000px) {
+    .desktop {
+      display: none;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+}
