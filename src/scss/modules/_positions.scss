@@ -1,1 +1,50 @@
+#positions-b1 {
+  .block {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px black;
+    text-align: center;
+  }
 
+  .block-1 {
+    position: relative;
+    left: 50px;
+  }
+
+  .block-2 {
+    position: relative;
+    left: 30px;
+    top: -30px;
+  }
+}
+
+#positions-b2 {
+  .block {
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+    text-align: center;
+    background-color: yellow;
+  }
+  .block-1 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 1px black;
+    text-align: center;
+    position: relative;
+  }
+
+  .block-2 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .block-3 {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+  }
+}
