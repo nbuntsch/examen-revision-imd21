@@ -17,7 +17,8 @@
   }
 }
 
-#mediaqueries-b2 {
+#mediaqueries-b2,
+#mediaqueries-c1 {
   p {
     font-size: 30px;
   }
@@ -32,6 +33,38 @@
     }
     p {
       font-size: 10px;
+    }
+  }
+}
+
+#mediaqueries-c2 {
+  .media-box {
+    background-color: #8fe1ef;
+    border: 1px solid #4144c2;
+    color: #013047;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media (min-width: 1000px) {
+    .container-media {
+      height: 200px;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .container-media {
+      height: 200px;
+      flex-direction: row;
+      justify-content: space-around;
+      display: flex;
+      align-items: center;
     }
   }
 }
