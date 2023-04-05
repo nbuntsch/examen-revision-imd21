@@ -1,0 +1,14 @@
+#flexbox-c1 {
+  .box {
+    background-color: lightblue;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+  }
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
