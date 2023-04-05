@@ -1,0 +1,38 @@
+h1 {
+  text-align: left;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  p {
+    padding-left: 20px;
+  }
+}
+
+.text1 {
+  font-size: 18px;
+}
+
+.text2 {
+  font-size: 30px;
+  padding: 0px;
+}
+
+@media (min-width: 768px) {
+  .text1 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .text2 {
+    display: none;
+  }
+}
