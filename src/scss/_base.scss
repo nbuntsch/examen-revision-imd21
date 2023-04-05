@@ -45,6 +45,17 @@ h3 {
   margin: 0;
 }
 
+.flexbox-b1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.flexbox-B {
+  border: solid 1px;
+  padding: 20px;
+  background-color: rgb(61, 134, 198);
+}
 .flexbox1 {
   display: flex;
   flex-direction: row;
@@ -107,6 +118,7 @@ h3 {
   // padding: 3px;
   background-color: rgb(203, 159, 16);
 }
+
 /* ====================================
 // base rules
 // ==================================== */
