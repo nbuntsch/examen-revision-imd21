@@ -1,3 +1,26 @@
+#transitions-b1 {
+  font-size: 40px;
+  color: indianred;
+
+  span {
+    display: inline-block;
+    transition-property: color;
+    transition-duration: 0.5s;
+  }
+  span:hover {
+    color: white;
+  }
+  .transition-hover {
+    display: inline-block;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .transition-hover:hover {
+    background-color: indigo;
+  }
+}
+
 #transitions-c1 {
   p {
     font-size: 30px;
