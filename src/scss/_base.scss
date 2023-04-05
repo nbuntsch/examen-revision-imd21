@@ -44,6 +44,18 @@ h2 {
 h3 {
   margin: 0;
 }
+
+.flexbox-b3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexbox-C {
+  width: 50%;
+  border: solid 1px;
+  padding: 20px;
+  background-color: rgb(61, 134, 198);
+}
 .flexbox-b2 {
   display: flex;
   flex-direction: column-reverse;
