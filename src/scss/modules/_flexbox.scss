@@ -12,3 +12,18 @@
   align-items: flex-end;
   justify-content: flex-end;
 }
+
+#flexbox-c2 {
+  .box {
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
