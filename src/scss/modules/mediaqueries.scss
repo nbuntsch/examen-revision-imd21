@@ -1,0 +1,49 @@
+#mediaqueries-c1 {
+  .mobile {
+    font-size: 30px;
+  }
+
+  .desktop {
+    font-size: 40px;
+    display: none;
+  }
+
+  @media (min-width: 900px) {
+    .mobile {
+      display: none;
+    }
+    .desktop {
+      display: block;
+    }
+  }
+}
+
+#mediaqueries-c2 {
+  .box {
+    height: 100px;
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 20px 10px;
+  }
+
+  @media (min-width: 900px) {
+    .box {
+      width: 50px;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .boxa {
+      order: 3;
+    }
+    .boxb {
+      order: 2;
+    }
+    .boxc {
+      order: 1;
+    }
+  }
+}
