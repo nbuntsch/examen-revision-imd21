@@ -1,0 +1,28 @@
+#transitions-c1 {
+  .animation {
+    width: 18%;
+    position: relative;
+    z-index: 1;
+  }
+  .color {
+    animation-name: background-apply;
+    background: red;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes background-apply {
+    from {
+      width: 0%;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+}
