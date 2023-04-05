@@ -1,1 +1,53 @@
+#positions-b1 {
+  .child {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    padding: 40px 40px;
+    border: solid 2px blue;
+  }
 
+  .moove1 {
+    position: relative;
+    left: 50px;
+  }
+
+  .moove2 {
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+  }
+}
+
+#positions-b2 {
+  .parent {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    padding: 40px 40px;
+    border: solid 2px blue;
+  }
+
+  .child1 {
+    background-color: aqua;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+    padding: 10px 13px;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .child2 {
+    position: absolute;
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+    padding: 10px 13px;
+    bottom: -20px;
+    left: 75px;
+  }
+}
