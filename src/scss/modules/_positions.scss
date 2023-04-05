@@ -1,0 +1,47 @@
+.luggage-1,
+.luggage-2,
+.luggage-3,
+.luggage-4 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: peru;
+  border: 1px solid black;
+}
+
+.luggage-5,
+.luggage-6 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: gold;
+  border: 1px solid black;
+}
+
+.luggage-1 {
+  position: relative;
+  left: 50px;
+}
+
+.luggage-2 {
+  position: relative;
+  top: -30px;
+  left: 20px;
+}
+
+.luggage-4 {
+  position: relative;
+}
+
+.luggage-5 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 10px;
+}
+
+.luggage-6 {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
