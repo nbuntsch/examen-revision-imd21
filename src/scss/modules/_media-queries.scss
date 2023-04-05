@@ -1,0 +1,43 @@
+#mediaqueries-c1 {
+  font-size: 50px;
+  .mobile-text {
+    display: none;
+  }
+  @media (max-width: 800px) {
+    p {
+      font-size: 30px;
+      display: none;
+    }
+    .mobile-text {
+      display: inline;
+    }
+  }
+}
+
+#mediaqueries-c2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  .box {
+    background-color: indianred;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .box {
+      width: calc(100% / 2);
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
