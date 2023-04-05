@@ -1,0 +1,30 @@
+#transitions-c1 {
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.5s 0.2s ease-in-out;
+  }
+
+  a:hover {
+    background-color: rosybrown;
+  }
+}
+
+#transitions-b1 {
+  .wrapper {
+    width: 70px;
+    font-size: 20px;
+    color: rgb(183, 40, 63);
+    transition: background-color 0.3s 0.2s ease-in-out;
+  }
+  .second {
+    transition: color 0.3s 0.2s ease-in-out;
+  }
+  .wrapper:hover {
+    background-color: rgb(121, 69, 170);
+  }
+
+  .wrapper:hover .second {
+    color: rgb(255, 255, 255);
+  }
+}
