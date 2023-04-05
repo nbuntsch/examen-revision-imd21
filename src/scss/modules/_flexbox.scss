@@ -1,0 +1,60 @@
+.box-a {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 175, 90);
+}
+
+.box-b {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 175, 90);
+}
+
+.box-c {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 175, 90);
+}
+
+#flexbox-a1 {
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+#flexbox-a2 {
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+}
+
+#flexbox-a3 {
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+}
+
+#flexbox-b1 {
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+}
+
+#flexbox-b2 {
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}

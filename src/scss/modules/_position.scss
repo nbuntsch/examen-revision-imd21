@@ -1,0 +1,116 @@
+#positions-a1 {
+  .box-a {
+    border: 1px solid black;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(255, 104, 90);
+    position: relative;
+  }
+
+  .box-b {
+    border: 1px solid black;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(255, 104, 90);
+    position: relative;
+    z-index: 1;
+    left: 10px;
+    top: 30px;
+  }
+
+  .box-c {
+    border: 1px solid black;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(255, 104, 90);
+    position: relative;
+  }
+}
+
+#positions-a2 {
+  .box-a {
+    border: 1px solid black;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(255, 104, 90);
+    position: relative;
+  }
+
+  .box-b {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 162, 49);
+    position: relative;
+    left: 380px;
+    bottom: 60px;
+  }
+
+  .box-c {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 162, 49);
+    position: relative;
+    bottom: 130px;
+  }
+}
+
+#positions-b1 {
+  .box-a {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 70, 49);
+    position: relative;
+    left: 20px;
+  }
+
+  .box-b {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 70, 49);
+    position: relative;
+    bottom: 20px;
+  }
+
+  .box-c {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 70, 49);
+    position: relative;
+  }
+}
+
+#positions-b2 {
+  .box-a {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 70, 49);
+    position: relative;
+    left: 20px;
+  }
+
+  .box-b {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 162, 49);
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+  }
+
+  .box-c {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 162, 49);
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+  }
+}
