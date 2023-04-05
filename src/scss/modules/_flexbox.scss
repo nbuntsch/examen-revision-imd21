@@ -1,0 +1,47 @@
+#flexbox-b1 {
+  .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .box {
+    background-color: paleturquoise;
+    padding: 20px 40px;
+    border: 1px solid black;
+  }
+}
+
+#flexbox-b2 {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    background-color: paleturquoise;
+    padding: 20px 40px;
+    width: 50px;
+    border: 1px solid black;
+  }
+}
+
+#flexbox-b3 {
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .box {
+    background-color: paleturquoise;
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+  }
+}
