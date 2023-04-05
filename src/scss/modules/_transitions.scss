@@ -1,0 +1,19 @@
+.transi {
+  max-width: 65px;
+  max-height: 75px;
+  font-size: 25px;
+  color: rgb(255, 96, 122);
+  transition-duration: 0.5s;
+}
+
+span {
+  transition-duration: 0.5s;
+}
+
+.transi:hover {
+  background-color: purple;
+}
+
+span:hover {
+  color: white;
+}
