@@ -1,0 +1,14 @@
+#flexbox-a3 {
+  .container-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+  }
+
+  .a3-boxes {
+    background: blue;
+    padding: 25px;
+  }
+}
