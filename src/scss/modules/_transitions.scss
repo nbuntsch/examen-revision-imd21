@@ -1,0 +1,12 @@
+#transitions-c1 {
+  p {
+    font-size: 25px;
+  }
+  .background {
+    transition: color 0.5s 0.2s ease-in-out;
+  }
+  .background:hover {
+    background-color: fuchsia;
+    width: 130px;
+  }
+}
