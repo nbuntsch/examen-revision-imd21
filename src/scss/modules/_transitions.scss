@@ -1,1 +1,36 @@
+#transitions-b1 {
+  .block {
+    background-color: none;
+    color: red;
+    width: 50px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
 
+  span {
+    color: red;
+    transition-property: color;
+  }
+
+  .block:hover {
+    background-color: blue;
+  }
+
+  .block:hover span {
+    color: white;
+  }
+}
+
+#transitions-c1 {
+  .background {
+    background-color: red;
+    height: 20px;
+    width: 100%;
+    transition-duration: 0.5s;
+    transform: translateX(-100%);
+  }
+
+  p:hover .background {
+    transform: translateX(0);
+  }
+}
