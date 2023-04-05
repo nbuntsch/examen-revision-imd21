@@ -6,18 +6,18 @@
   }
   .container {
     position: relative;
+    &:hover {
+      .bande {
+        width: 170px;
+      }
+    }
   }
   .bande {
     position: absolute;
     height: 30px;
     width: 0px;
+    transition: 1s;
     background-color: lightcoral;
     top: 33px;
-  }
-
-  h1:hover {
-    .bande {
-      width: 200px;
-    }
   }
 }
