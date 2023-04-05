@@ -1,0 +1,53 @@
+#positions-b1 {
+  position: relative;
+  .box {
+    position: relative;
+    background-color: indianred;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-A {
+    left: 50px;
+  }
+
+  .box-B {
+    left: 25px;
+    bottom: 25px;
+  }
+}
+
+#positions-b2 {
+  position: relative;
+  .box {
+    background-color: indianred;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-B,
+  .box-C {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: indigo;
+  }
+
+  .box-B {
+    top: 75px;
+    left: 75px;
+  }
+
+  .box-C {
+    top: 100px;
+    left: 100px;
+  }
+}
