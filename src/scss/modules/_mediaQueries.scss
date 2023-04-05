@@ -1,0 +1,46 @@
+.mediaqueries-c1-mobile {
+  font-size: medium;
+  font-weight: 200;
+}
+
+.mediaqueries-c1-desktop {
+  font-size: large;
+  font-weight: 700;
+}
+
+@media (min-width: 800px) {
+  .mediaqueries-c1-desktop {
+    display: block;
+  }
+  .mediaqueries-c1-mobile {
+    display: none;
+  }
+
+  .mq-flex-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+  .mediaqueries-c1-desktop {
+    display: none;
+  }
+  .mediaqueries-c1-mobile {
+    display: block;
+  }
+
+  .mq-flex-container {
+    flex-direction: column;
+  }
+}
+
+.mq-flex-container {
+  display: flex;
+}
+
+.mq-flex {
+  background-color: lightblue;
+  border: solid 1px blue;
+  padding: 10px;
+}
