@@ -1,0 +1,27 @@
+.box {
+  background-color: aquamarine;
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  width: 110px;
+  padding: 30px;
+}
+
+#flexbox-b1 {
+  .box {
+    display: block;
+    flex-direction: row;
+  }
+}
+
+#flexbox-b2 {
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+#flexbox-b3 {
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+}
