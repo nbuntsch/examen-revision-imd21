@@ -1,0 +1,42 @@
+.flex-element {
+  background-color: lightblue;
+  border: solid 1px blue;
+  padding: 10px 20px;
+}
+
+.flex-container-c1 {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.flex-container-c2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.flex-container-c2 .flex-element {
+  width: 34%;
+}
+
+.flex-container-c3 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.flex-container-c3 .flex-element {
+  width: 33%;
+}
+
+.flex-c3-c {
+  align-self: flex-end;
+}
