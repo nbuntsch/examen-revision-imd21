@@ -1,0 +1,26 @@
+.menu-button {
+  background-color: bisque;
+  border: solid black 1px;
+  padding: 10px;
+}
+
+.button-active {
+  background-color: black;
+  color: white;
+}
+
+.menu-deroulant {
+  background-color: bisque;
+  border: solid black 1px;
+  padding-left: 10px;
+}
+
+.menu-hide {
+  display: none;
+}
+
+.button-close {
+  position: relative;
+  left: 530px;
+  font-size: 20px;
+}
