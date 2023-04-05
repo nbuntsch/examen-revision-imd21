@@ -3,6 +3,9 @@
   width: 50px;
   height: 50px;
   background-color: rgb(255, 175, 90);
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .box-b {
@@ -10,6 +13,9 @@
   width: 50px;
   height: 50px;
   background-color: rgb(255, 175, 90);
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .box-c {
@@ -17,6 +23,9 @@
   width: 50px;
   height: 50px;
   background-color: rgb(255, 175, 90);
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 #flexbox-a1 {
@@ -54,7 +63,26 @@
 #flexbox-b2 {
   .box {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+}
+
+#flexbox-b3 {
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box-a {
+    width: 50%;
+  }
+
+  .box-b {
+    width: 50%;
+  }
+
+  .box-c {
+    width: 50%;
   }
 }
