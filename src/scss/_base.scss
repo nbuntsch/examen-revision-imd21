@@ -91,6 +91,22 @@ h3 {
   background-color: rgb(237, 82, 31);
   text-align: center;
 }
+
+.parent {
+  position: relative;
+  //   border: solid 1px;
+  //   padding: 20px;
+  background-color: rgb(237, 82, 31);
+  //   text-align: center;
+}
+.child {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  // border: solid 1px;
+  // padding: 3px;
+  background-color: rgb(203, 159, 16);
+}
 /* ====================================
 // base rules
 // ==================================== */
