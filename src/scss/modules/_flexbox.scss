@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
+    height: 100%;
   }
 
   .a3-boxes {
@@ -23,5 +23,21 @@
     width: 50%;
     padding: 20px;
     border: solid black 2px;
+  }
+}
+
+#flexbox-c1 {
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    height: 100%;
+  }
+
+  .boxes {
+    background: blue;
+    padding: 20px;
+    width: 20%;
+    border: solid 2px black;
   }
 }
