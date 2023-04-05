@@ -6,22 +6,24 @@
 }
 
 #flexbox-b1 {
-  .box {
-    display: block;
+  .item {
+    display: flex;
     flex-direction: row;
   }
 }
 
 #flexbox-b2 {
-  .box {
+  .item {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+    align-items: end;
   }
 }
 
 #flexbox-b3 {
-  .box {
+  .item {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
