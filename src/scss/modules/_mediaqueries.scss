@@ -1,49 +1,18 @@
-/* ====================================
-// reset rules
-// ==================================== */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.visible-sur-mobile {
+  display: none;
 }
 
-html {
-  font-size: 16px;
+.visible-sur-desktop {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-
-  font-size: 1rem;
-  font-family: Lato, sans-serif;
-  line-height: 1.25;
+@media screen and (max-width: 768px) {
+  .visible-sur-mobile {
+    display: block;
+  }
+  .visible-sur-desktop {
+    display: none;
+  }
 }
-
-a {
-  color: inherit;
-}
-
-img,
-video {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: middle;
-}
-
-h1 {
-  padding: 1em 0;
-}
-
-h2 {
-  margin-bottom: 15px;
-}
-
-h3 {
-  margin: 0;
-}
-/* ====================================
-// base rules
-// ==================================== */
