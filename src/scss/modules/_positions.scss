@@ -1,49 +1,36 @@
-/* ====================================
-// reset rules
-// ==================================== */
+#positions-c1 {
+  .a,
+  .b,
+  .c {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border: solid black 1px;
+  }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  .a {
+    position: relative;
+  }
+
+  .a1 {
+    opacity: 0.7;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    border: solid black 1px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .b {
+    position: relative;
+    bottom: -60px;
+    left: 60px;
+    z-index: 2;
+  }
+
+  .c {
+    position: relative;
+    z-index: 1;
+  }
 }
-
-html {
-  font-size: 16px;
-}
-
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-
-  font-size: 1rem;
-  font-family: Lato, sans-serif;
-  line-height: 1.25;
-}
-
-a {
-  color: inherit;
-}
-
-img,
-video {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: middle;
-}
-
-h1 {
-  padding: 1em 0;
-}
-
-h2 {
-  margin-bottom: 15px;
-}
-
-h3 {
-  margin: 0;
-}
-/* ====================================
-// base rules
-// ==================================== */
