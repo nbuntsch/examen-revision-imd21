@@ -27,3 +27,20 @@
   justify-content: flex-end;
   flex-wrap: wrap;
 }
+
+#flexbox-c3 {
+  .box,
+  .boxc {
+    background-color: lightblue;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+  }
+  .boxc {
+    align-self: flex-end;
+  }
+  display: flex;
+  flex-direction: row;
+}
