@@ -1,0 +1,44 @@
+.l-section {
+  margin-bottom: 60px;
+}
+
+.l-background {
+  padding: 30px 0;
+
+  &:nth-child(odd) {
+    background: #eee;
+  }
+  &:nth-child(even) {
+    background: #ddd;
+  }
+}
+
+.l-container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.l-row {
+  display: flex;
+  gap: 30px;
+}
+
+.l-col-6 {
+  width: 50%;
+}
+
+.l-exercice {
+  padding: 20px;
+  background: #fff;
+  border: solid 1px #ccc;
+  // margin: 30px 0;
+  min-height: 100px;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.l-col-6:last-child .l-exercice {
+  padding: 0;
+}
