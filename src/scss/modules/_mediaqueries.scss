@@ -1,18 +1,48 @@
-.visible-sur-mobile {
-  display: none;
-}
-
-.visible-sur-desktop {
-  display: block;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-@media screen and (max-width: 768px) {
+#mediaqueries-c1 {
   .visible-sur-mobile {
-    display: block;
-  }
-  .visible-sur-desktop {
     display: none;
+  }
+
+  .visible-sur-desktop {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 768px) {
+    .visible-sur-mobile {
+      display: block;
+    }
+    .visible-sur-desktop {
+      display: none;
+    }
+  }
+}
+
+#mediaqueries-c2 {
+  .a,
+  .b,
+  .c {
+    width: 200px;
+    height: 50px;
+    background-color: skyblue;
+    border: solid black 1px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+
+  .a,
+  .b,
+  .c {
+    width: 100px;
+    height: 50px;
+    background-color: skyblue;
+    border: solid black 1px;
   }
 }
