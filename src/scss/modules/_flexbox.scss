@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: flex-end;
   }
+
   .box {
     background-color: orange;
     border: 1px solid black;
@@ -17,6 +18,7 @@
     align-items: flex-end;
     flex-direction: column-reverse;
   }
+
   .box {
     background-color: orange;
     border: 1px solid black;
@@ -29,12 +31,75 @@
     display: flex;
     flex-wrap: wrap;
   }
+
   .box {
     background-color: orange;
     border: 1px solid black;
-    width: 50%;
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 50%;
+  }
+}
+
+#flexbox-c1 {
+  .boxs {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .box {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 20px 40px;
+  }
+}
+
+#flexbox-c2 {
+  .boxs {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 20px 40px;
+    width: 40%;
+  }
+
+  .box1 {
+    order: 2;
+  }
+
+  .box2 {
+    order: 1;
+  }
+
+  .box3 {
+    order: 3;
+  }
+}
+
+#flexbox-c3 {
+  .boxs {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .box {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 20px 40px;
+  }
+
+  .box3 {
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 }
