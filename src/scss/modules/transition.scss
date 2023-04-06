@@ -1,0 +1,23 @@
+#transitions-c1 {
+  h1 {
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
+  }
+  .container {
+    position: relative;
+    &:hover {
+      .bande {
+        width: 170px;
+      }
+    }
+  }
+  .bande {
+    position: absolute;
+    height: 30px;
+    width: 0px;
+    transition: 1s;
+    background-color: lightcoral;
+    top: 33px;
+  }
+}

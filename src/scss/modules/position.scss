@@ -1,0 +1,92 @@
+#positions-c1 {
+  .container {
+    position: relative;
+    height: 300px;
+  }
+
+  .box {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 1px solid black;
+  }
+  .box-a {
+    left: 50px;
+  }
+  .box-b {
+    bottom: 50px;
+    left: 50px;
+    z-index: 1;
+  }
+  .box-c {
+    bottom: 0;
+  }
+  .box-a1 {
+    border: 1px solid black;
+    background-color: rgba($color: #fff, $alpha: 0.3);
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#positions-c2 {
+  .container {
+    position: relative;
+    height: 300px;
+  }
+
+  .box {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 1px solid black;
+  }
+  .box-a {
+    left: 50px;
+  }
+  .box-b {
+    bottom: 100px;
+    left: 100px;
+    z-index: 1;
+  }
+  .box-c {
+    bottom: 0;
+  }
+  .box2 {
+    border: 1px solid black;
+    background-color: rgba($color: #fff, $alpha: 0.3);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-a1 {
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+  }
+  .box-a2 {
+    width: 50%;
+    height: 100%;
+    left: 0;
+  }
+  .box-b1 {
+    width: 80px;
+    height: 40px;
+    bottom: -20px;
+    right: -40px;
+  }
+}
