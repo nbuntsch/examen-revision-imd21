@@ -1,0 +1,39 @@
+#transitions-c1 {
+  .transition-word {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    color: black;
+    z-index: 3;
+  }
+
+  .transition-word::before,
+  .transition-word::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    transition: all 0.3s ease-out;
+  }
+
+  .transition-word::before {
+    background-color: lightpink;
+    z-index: -1;
+  }
+
+  .transition-word::after {
+    background-color: white;
+    z-index: -1;
+  }
+
+  .transition-word:hover::before {
+    width: 100%;
+  }
+
+  .transition-word:hover::after {
+    left: 100%;
+    width: 100%;
+  }
+}
