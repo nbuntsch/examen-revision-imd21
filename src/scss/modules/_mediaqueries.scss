@@ -89,41 +89,23 @@ h4 {
   }
 }
 
-#mediaqueries-c1 {
-  @media (min-width: 600px) {
+#mediaqueries-b2 {
+  .title-desktop {
+    font-size: 20px;
+  }
+
+  .title-mobile {
+    font-size: 10px;
+  }
+
+  @media (min-width: 600px) and (max-width: 800px) {
+    .title-desktop {
+      display: none;
+    }
   }
 
   @media (min-width: 800px) {
-  }
-}
-
-#mediaqueries-c2 {
-  @media (min-width: 600px) {
-    .box {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-
-    .box-a {
-      width: 200px;
-    }
-
-    .box-b {
-      width: 200px;
-    }
-
-    .box-c {
-      width: 200px;
-    }
-  }
-
-  .desktop-container {
-    display: none;
-  }
-
-  @media (min-width: 800px) {
-    .box {
+    .title-mobile {
       display: none;
     }
   }
