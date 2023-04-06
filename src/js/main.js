@@ -1,15 +1,15 @@
-const trigger = document.querySelector('.js-trigger');
-const target = document.querySelector('.js-target');
-const close = document.querySelector('.js-close');
+const trigger = document.querySelector(".js-trigger");
+const target = document.querySelector(".js-target");
+const close = document.querySelector(".js-close");
 
-trigger.addEventListener('click', () => {
-  target.classList.toggle('is-active');
-  trigger.classList.toggle('is-active');
+trigger.addEventListener("click", () => {
+  target.classList.toggle("is-active");
+  trigger.classList.toggle("is-active");
 });
 
-close.addEventListener('click', () => {
-  target.classList.toggle('is-active');
-  trigger.classList.toggle('is-active');
+close.addEventListener("click", () => {
+  target.classList.toggle("is-active");
+  trigger.classList.toggle("is-active");
 });
 
 // const trigger2 = document.querySelector('.js-trigger-2');

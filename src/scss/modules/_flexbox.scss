@@ -43,6 +43,10 @@
 }
 
 #flexbox-c1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
   .boxs {
     display: flex;
     justify-content: flex-end;
@@ -96,10 +100,13 @@
     background-color: orange;
     border: 1px solid black;
     padding: 20px 40px;
+    width: 30%;
   }
 
-  .box3 {
+  .box-alone {
+    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-top: 70px;
   }
 }
