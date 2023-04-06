@@ -145,6 +145,48 @@ h3 {
   background-color: rgb(203, 159, 16);
 }
 
+.mediaqueries-a1 {
+  @media (min-width: 500px) {
+    .title {
+      font-size: 26px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .title {
+      font-size: 36px;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+}
+
+.mediaqueries-a2 {
+  @media (min-width: 500px) {
+    .title {
+      font-size: 26px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    background-color: rgb(117, 216, 247);
+    .title {
+      font-size: 36px;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+}
 /* ====================================
 // base rules
 // ==================================== */
