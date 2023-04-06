@@ -1,0 +1,49 @@
+#positions-b1 {
+  .box {
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    border: 1px solid black;
+  }
+  .box-a {
+    position: relative;
+    left: 80px;
+  }
+  .box-b {
+    position: relative;
+    top: -30px;
+    left: 50px;
+  }
+}
+
+#positions-b2 {
+  .box {
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    border: 1px solid black;
+  }
+  .box-small {
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid black;
+  }
+  .box-b {
+    position: absolute;
+    bottom: 35px;
+    left: 70px;
+  }
+  .box-c {
+    position: absolute;
+    left: 100px;
+    bottom: 7px;
+  }
+  position: relative;
+}

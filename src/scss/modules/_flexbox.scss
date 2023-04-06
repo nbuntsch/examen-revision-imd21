@@ -1,0 +1,46 @@
+#flexbox-c1 {
+  .box {
+    background-color: lightblue;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+  }
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#flexbox-c2 {
+  .box {
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+  }
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+#flexbox-c3 {
+  .box,
+  .boxc {
+    background-color: lightblue;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+  }
+  .boxc {
+    align-self: flex-end;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
