@@ -1,16 +1,25 @@
-const trigger = document.querySelector('.js-trigger');
-const target = document.querySelector('.js-target');
-const close = document.querySelector('.js-close');
+var labelAccordeon = document.querySelector(".label-accordeon");
+var accordeonContent = document.querySelector(".label-accordeon-content");
 
-trigger.addEventListener('click', () => {
-  target.classList.toggle('is-active');
-  trigger.classList.toggle('is-active');
-});
+var accordeonOpen = function () {
+  accordeonContent.classList.toggle("label-accordeon-content-is-open");
+};
 
-close.addEventListener('click', () => {
-  target.classList.toggle('is-active');
-  trigger.classList.toggle('is-active');
-});
+labelAccordeon.addEventListener("click", accordeonOpen);
+
+// const trigger = document.querySelector('.js-trigger');
+// const target = document.querySelector('.js-target');
+// const close = document.querySelector('.js-close');
+
+// trigger.addEventListener('click', () => {
+//   target.classList.toggle('is-active');
+//   trigger.classList.toggle('is-active');
+// });
+
+// close.addEventListener('click', () => {
+//   target.classList.toggle('is-active');
+//   trigger.classList.toggle('is-active');
+// });
 
 // const trigger2 = document.querySelector('.js-trigger-2');
 // const target2 = document.querySelector('.js-target-2');
