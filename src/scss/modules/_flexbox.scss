@@ -1,3 +1,15 @@
+#flexbox-c1,
+#flexbox-c2,
+#flexbox-c3 {
+  .box {
+    background-color: rgb(73, 136, 199);
+    border: 1px solid black;
+    padding: 10px 30px;
+    width: 150px;
+    height: 90px;
+  }
+}
+
 #flexbox-c1 {
   height: 240px;
   display: flex;
@@ -7,14 +19,6 @@
 
   .wrapper {
     display: flex;
-  }
-
-  .box {
-    background-color: rgb(73, 136, 199);
-    border: 1px solid black;
-    padding: 10px 30px;
-    width: 80px;
-    height: 60px;
   }
 }
 
@@ -33,19 +37,15 @@
     display: flex;
     justify-content: flex-end;
   }
-  .box {
-    background-color: rgb(73, 136, 199);
-    border: 1px solid black;
-    padding: 10px 30px;
-  }
 }
 
 #flexbox-c3 {
   .wrapper {
-    height: 200px;
+    height: 210px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: flex-start;
     justify-content: space-between;
   }
 
@@ -53,17 +53,10 @@
     display: flex;
     flex-direction: row;
   }
-  .contentC {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
 
-  .box {
-    background-color: rgb(73, 136, 199);
-    border: 1px solid black;
-    padding: 10px 30px;
-    width: 150px;
-    height: 40px;
+  .wrapper .contentC {
+    height: 210px;
+    display: flex;
+    align-items: flex-end;
   }
 }
