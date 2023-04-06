@@ -1,0 +1,35 @@
+#javascript-a1 {
+  .container-label {
+    background-color: #f2ded1;
+    border: 1px solid #f0bc9b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px 30px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .burger-menu-minus {
+    display: none;
+  }
+
+  .burger-menu-minus,
+  .burger-menu {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .shrek {
+    border: 1px solid #f0bc9b;
+    padding: 20px;
+    display: none;
+  }
+  .is-active {
+    display: block;
+  }
+
+  .exchange {
+    display: none;
+  }
+}

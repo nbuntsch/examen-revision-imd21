@@ -1,0 +1,42 @@
+#transitions-b1 {
+  p {
+    color: #ea0064;
+    font-size: 20px;
+  }
+  .transitions-box {
+    display: inline-block;
+    transition: 0.2s;
+  }
+  .transitions-box:hover {
+    background-color: rgb(65, 16, 134);
+  }
+  .transitions-box:hover span {
+    color: white;
+  }
+}
+
+#transitions-c1 {
+  .big-title {
+    font-size: 25px;
+    display: inline;
+    position: relative;
+    transition: 0.4s;
+    z-index: 200;
+  }
+  .decoration {
+    width: 0%;
+    height: 100%;
+    background-color: #ea0064;
+    transition: 0.4s;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  .big-title:hover {
+    color: rgb(65, 16, 134);
+  }
+
+  .big-title:hover .decoration {
+    width: 100%;
+  }
+}
