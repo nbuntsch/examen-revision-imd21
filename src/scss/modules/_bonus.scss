@@ -1,0 +1,37 @@
+.button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: rgb(246, 201, 238);
+  width: 50%;
+}
+.plus {
+  padding-left: 100%;
+}
+.button.is-active {
+  margin-bottom: 0;
+}
+.moin {
+  visibility: hidden;
+}
+.button.is-active .moin {
+  visibility: visible;
+  padding-left: 100%;
+}
+.button.is-active .plus {
+  visibility: hidden;
+  padding-left: 100%;
+}
+.menu {
+  width: 50%;
+  height: 50px;
+  border: 1px solid rgb(246, 201, 238);
+  padding: 10px;
+  opacity: 0;
+  margin-top: 0;
+  overflow: scroll;
+}
+
+.menu.is-open {
+  opacity: 1;
+}
