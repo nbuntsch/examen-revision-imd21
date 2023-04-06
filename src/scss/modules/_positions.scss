@@ -1,0 +1,72 @@
+.box {
+  background-color: rgb(222, 78, 12);
+  border: 1px solid black;
+  padding: 30px 30px;
+  width: 200px;
+  height: 89px;
+  text-align: center;
+}
+
+.boxrelative {
+  background-color: rgba(215, 156, 30, 0.562);
+  border: 1px solid black;
+  padding: 10px 30px;
+  height: 50%;
+}
+
+#positions-c1 {
+  .box {
+    position: relative;
+  }
+  .boxrelative {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .boxA {
+    position: relative;
+    left: 80px;
+  }
+
+  .boxB {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+  }
+}
+
+#positions-c2 {
+  .boxA {
+    position: relative;
+  }
+
+  .boxrelativeA1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 50%;
+  }
+
+  .boxrelativeA2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+  }
+
+  .boxB {
+    position: relative;
+    left: 25%;
+  }
+
+  .boxrelativeB {
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+  }
+}
