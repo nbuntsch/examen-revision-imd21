@@ -1,0 +1,71 @@
+#positions-c1 {
+  .fixed-element {
+    padding: 30px;
+    background: orange;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    border: black solid 2px;
+  }
+
+  .a {
+    left: 100px;
+  }
+
+  .b {
+    top: 20;
+    left: 20px;
+    z-index: 1;
+  }
+
+  .child {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.289);
+    width: 100%;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+#positions-c2 {
+  .fixed-element {
+    padding: 30px;
+    background: orange;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    border: black solid 2px;
+  }
+
+  .child {
+    position: absolute;
+  }
+
+  .one {
+    top: 0;
+    right: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 25%;
+    background: rgba(0, 0, 0, 0.261);
+  }
+
+  .two {
+    background: rgba(0, 0, 0, 0.261);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    padding: 10%;
+    text-align: center;
+  }
+
+  .b {
+    left: 15%;
+  }
+  .b-one {
+    background: orangered;
+    padding: 15%;
+    right: -10%;
+  }
+}
