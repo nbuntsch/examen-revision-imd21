@@ -187,6 +187,15 @@ h3 {
     }
   }
 }
+
+.button {
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  color: rgb(255, 0, 0);
+}
 /* ====================================
 // base rules
 // ==================================== */
