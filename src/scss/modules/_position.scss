@@ -92,13 +92,13 @@
 
 #positions-c1 {
   .positionC1A-box {
-    position: absolute;
+    position: relative;
     left: 118px;
   }
-  .yellow-position-box {
+  .positionC1A1-box {
     position: absolute;
-    top: 20px;
-    left: 71px;
+    top: 19px;
+    left: -1px;
   }
 
   .positionC1B-box,
@@ -106,12 +106,12 @@
     position: relative;
   }
   .positionC1B-box {
-    top: 22px;
+    bottom: 13px;
     left: 40px;
   }
 
   .positionC1C-box {
-    top: 136px;
+    top: 95px;
     left: 5px;
   }
 }
