@@ -78,10 +78,22 @@
   height: 25px;
 }
 
+.mini-yellow-position-box {
+  padding: 15px;
+  width: 70px;
+  height: 25px;
+  opacity: 100%;
+}
+.square-yellow-position-box {
+  padding: 20px;
+  width: 72px;
+  height: 72px;
+}
+
 #positions-c1 {
   .positionC1A-box {
     position: absolute;
-    right: 907px;
+    left: 118px;
   }
   .yellow-position-box {
     position: absolute;
@@ -106,4 +118,35 @@
 
 .positionsc1 {
   height: 286px;
+}
+
+#positions-c2 {
+  .positionC2A-box,
+  .positionC2B-box,
+  .positionC2C-box {
+    position: relative;
+    z-index: 100;
+  }
+  .positionC2A1-box,
+  .positionC2A2-box,
+  .positionC2B1-box {
+    position: absolute;
+    z-index: 200;
+  }
+
+  .positionC2B-box {
+    left: 58px;
+  }
+  .positionC2B1-box {
+    top: 46px;
+    left: 134px;
+  }
+
+  .positionC2A1-box {
+    left: -1px;
+  }
+
+  .positionC2A2-box {
+    top: 19px;
+  }
 }
