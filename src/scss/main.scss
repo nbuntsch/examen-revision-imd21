@@ -1,3 +1,8 @@
-@import 'base';
-@import 'layout';
-@import 'modules/example';
+@import "base";
+@import "layout";
+@import "modules/example";
+@import "modules/bootstrap.scss";
+@import "modules/flexbox.scss";
+@import "modules/positions.scss";
+@import "modules/mediaqueries.scss";
+@import "modules/transition.scss";

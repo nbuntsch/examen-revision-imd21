@@ -1,0 +1,45 @@
+.box,
+.box-ba,
+.box-bb {
+  background-color: aquamarine;
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  width: 110px;
+  padding: 30px;
+}
+
+.box-b1,
+.box-b2 {
+  background-color: bisque;
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  width: 50px;
+  padding: 10px;
+}
+
+#positions-b1 {
+  .box-ba {
+    position: relative;
+    left: 60px;
+  }
+  .box-bb {
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+  }
+}
+
+#positions-b2 {
+  .box {
+    position: relative;
+  }
+
+  .box-b1 {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+  }
+
+  .box-b2 {
+    position: absolute;
+    left: 80px;
+  }
+}
