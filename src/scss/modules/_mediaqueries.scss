@@ -1,0 +1,47 @@
+#mediaqueries-c1 {
+  h1 {
+    font-weight: 400;
+  }
+  @media (min-width: 768px) {
+    .h1-mobile {
+      display: none;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .h1-desktop {
+      display: none;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+  }
+}
+
+#mediaqueries-c2 {
+  .block {
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 50px;
+    padding: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .wrapper {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+    }
+
+    .block {
+      padding: 15px;
+      width: 50px;
+      text-align: center;
+    }
+  }
+}

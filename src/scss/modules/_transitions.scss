@@ -1,0 +1,63 @@
+#transitions-b1 {
+  .block {
+    background-color: none;
+    color: red;
+    width: 50px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  span {
+    color: red;
+    transition-property: color;
+  }
+
+  .block:hover {
+    background-color: blue;
+  }
+
+  .block:hover span {
+    color: white;
+  }
+}
+
+#transitions-c1 {
+  // .transition {
+  //   overflow: hidden;
+  //   position: relative;
+  // }
+
+  // .background {
+  //   width: 50px;
+  //   height: 20px;
+  //   padding: 15px 72px;
+  //   background-color: aqua;
+  //   position: absolute;
+  //   z-index: -1;
+  //   top: 0;
+  //   left: 0;
+  //   transform: translatex(-100%);
+  //   transition: 0.3s;
+  // }
+
+  // .transition:hover .background {
+  //   transform: translatex(0);
+  // }
+
+  p {
+    font-size: 20px;
+  }
+
+  .transition {
+    width: 120px;
+    background-image: linear-gradient(to left, white 50%, aqua 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition-duration: 0.4s;
+  }
+
+  .transition:hover {
+    background-position: left bottom;
+  }
+}
