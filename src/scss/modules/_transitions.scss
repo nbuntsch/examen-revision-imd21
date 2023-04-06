@@ -1,0 +1,18 @@
+#transitions-b1 {
+  .exercice1 {
+    color: orange;
+  }
+
+  .exercice1:hover {
+    background-color: purple;
+    width: 40px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .exercice1:hover .text2 {
+    color: white;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+}

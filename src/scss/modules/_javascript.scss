@@ -1,0 +1,43 @@
+#javascript-a1 {
+  .accordion {
+    background-color: orange;
+    border: solid 1px black;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .active,
+  .accordion:hover {
+    background-color: orange;
+    border: solid 1px black;
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .accordion:after {
+    content: "+";
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+    font-weight: 900;
+  }
+
+  .active:after {
+    content: "-";
+    font-weight: 900;
+  }
+}
