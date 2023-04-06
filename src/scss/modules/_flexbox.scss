@@ -41,3 +41,44 @@
     border: solid 2px black;
   }
 }
+
+#flexbox-c2 {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    padding-left: 50%;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+
+  .boxes {
+    background: blue;
+    padding: 20px;
+    width: 50%;
+    border: solid 2px black;
+    height: 50%;
+  }
+}
+
+#flexbox-c3 {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .boxes {
+    background: blue;
+    padding: 20px;
+    width: 30%;
+    border: solid 2px black;
+  }
+
+  .c {
+    align-self: flex-end;
+  }
+}

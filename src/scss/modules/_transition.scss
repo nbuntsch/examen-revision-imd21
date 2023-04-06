@@ -1,28 +1,25 @@
 #transitions-c1 {
-  .animation {
-    width: 18%;
+  .hello-transition {
+    font-size: 25px;
+    text-decoration: none;
+    background-size: 10%;
     position: relative;
-    z-index: 1;
+    z-index: 0;
   }
+
   .color {
-    animation-name: background-apply;
-    background: red;
+    position: absolute;
     width: 0%;
     height: 100%;
-    position: absolute;
+    background-color: red;
     z-index: -1;
     top: 0;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
+    left: 0;
   }
 
-  @keyframes background-apply {
-    from {
-      width: 0%;
-    }
-
-    to {
-      width: 100%;
-    }
+  .hello-transition:hover .color {
+    width: 100%;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
   }
 }
