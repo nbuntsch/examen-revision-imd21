@@ -27,3 +27,25 @@
         }
     }
 }
+
+#mediaqueries-b2 {
+    @media screen and (min-width: 0px) {
+        .change::before {
+            content: "mobile";
+        }
+
+        p {
+            font-size: 26px;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .change::before {
+            content: "desktop";
+        }
+
+        p {
+            font-size: 36px;
+        }
+    }
+}
