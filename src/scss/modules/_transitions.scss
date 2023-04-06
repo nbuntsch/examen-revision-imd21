@@ -1,0 +1,31 @@
+.transitionc {
+  font-weight: 500;
+  display: inline-block;
+  transition: ease-in-out 0.5s;
+}
+
+.transitionc::before {
+  content: "";
+  opacity: 100%;
+  position: absolute;
+  display: inline-block;
+  height: 20px;
+  width: 0px;
+  background-color: red;
+  transition: ease-in-out 0.5s;
+  z-index: 0;
+}
+
+.transitionc:hover::before {
+  opacity: 100%;
+  width: 83px;
+}
+
+.transitionc:hover {
+  color: purple;
+}
+
+.transitionct {
+  position: relative;
+  z-index: 2;
+}

@@ -1,0 +1,72 @@
+.positions-element {
+  background-color: orangered;
+  padding: 30px 20px;
+  border: solid 1px black;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  font-size: 20px;
+}
+
+.positions-sous-element {
+  background-color: orange;
+  border: solid 1px black;
+  width: 200px;
+  height: 40px;
+  opacity: 50%;
+}
+
+.position-c1-a {
+  position: relative;
+  left: 150px;
+}
+
+.position-c1-a1 {
+  position: relative;
+  right: 20px;
+  bottom: 15px;
+}
+
+.position-c1-b {
+  position: relative;
+  left: 50px;
+  top: 100px;
+  z-index: 2;
+}
+
+.position-c1-a {
+  position: absolute;
+}
+
+.position-c1-c {
+  position: relative;
+  top: 60px;
+  z-index: 1;
+}
+
+.position-c2-a1 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  bottom: 55px;
+  right: 20px;
+}
+
+.position-c2-a2 {
+  position: relative;
+  bottom: 95px;
+  right: 20px;
+}
+
+.position-c2-b {
+  position: relative;
+  left: 100px;
+}
+
+.position-c2-b1 {
+  position: relative;
+  width: 70px;
+  left: 130px;
+  top: 5px;
+  opacity: 100%;
+}
