@@ -6,6 +6,7 @@
   .block {
     width: 60px;
     height: 60px;
+    padding: 15px;
     background-color: aqua;
     border: solid 1px black;
     text-align: center;
@@ -19,6 +20,7 @@
 
   .block {
     width: 200px;
+    padding: 30px;
     background-color: aqua;
     border: solid 1px black;
     text-align: center;
@@ -32,6 +34,7 @@
 
   .block {
     flex-grow: 1;
+    padding: 20px;
     background-color: aqua;
     border: solid 1px black;
     text-align: center;
@@ -44,5 +47,6 @@
     background-color: aqua;
     border: solid 1px black;
     text-align: center;
+    padding: 20px;
   }
 }
