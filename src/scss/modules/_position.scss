@@ -1,0 +1,140 @@
+#positions-b1 {
+  position: relative;
+  .box {
+    position: relative;
+    background-color: indianred;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-A {
+    left: 50px;
+  }
+
+  .box-B {
+    left: 25px;
+    bottom: 25px;
+  }
+}
+
+#positions-b2 {
+  position: relative;
+  .box {
+    background-color: indianred;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-B,
+  .box-C {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: indigo;
+  }
+
+  .box-B {
+    top: 75px;
+    left: 75px;
+  }
+
+  .box-C {
+    top: 100px;
+    left: 100px;
+  }
+}
+
+#positions-c1 {
+  .box {
+    background-color: indianred;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .box-A {
+    left: 100px;
+  }
+
+  .box-B {
+    left: 25px;
+    top: 50px;
+    z-index: 1;
+  }
+
+  .box-A1 {
+    background-color: indigo;
+    opacity: 50%;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+  }
+}
+
+#positions-c2 {
+  .box {
+    background-color: indianred;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .box-A1,
+  .box-A2 {
+    background-color: indigo;
+    opacity: 50%;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+  }
+
+  .box-A1 {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+  }
+
+  .box-B1 {
+    background-color: indigo;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+  }
+
+  .box-B {
+    left: 100px;
+  }
+}

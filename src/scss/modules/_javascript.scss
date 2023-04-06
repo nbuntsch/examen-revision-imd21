@@ -1,0 +1,28 @@
+#javascript-a1 {
+  .label-accordeon {
+    background-color: indianred;
+    height: 50px;
+    border: 2px solid indigo;
+    color: indigo;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .label-accordeon-content {
+    height: 50px;
+    height: 100%;
+    border-left: 2px solid indigo;
+    border-right: 2px solid indigo;
+    border-bottom: 2px solid indigo;
+    color: indigo;
+    display: none;
+    padding: 10px;
+  }
+
+  .label-accordeon-content-is-open {
+    display: flex;
+  }
+}

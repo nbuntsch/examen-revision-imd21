@@ -1,0 +1,50 @@
+#transitions-b1 {
+  font-size: 40px;
+  color: indianred;
+
+  span {
+    display: inline-block;
+    transition-property: color;
+    transition-duration: 0.5s;
+  }
+  span:hover {
+    color: white;
+  }
+  .transition-hover {
+    display: inline-block;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .transition-hover:hover {
+    background-color: indigo;
+  }
+}
+
+#transitions-c1 {
+  p {
+    font-size: 30px;
+    color: black;
+  }
+  .background-text {
+    background-color: indianred;
+    width: 150px;
+    height: 30px;
+    transform: scaleX(1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+
+  .background-text:hover {
+    transform: scaleX(2);
+  }
+}
+
+// .button {
+//   transition: color 0.5s, background 0.2s 0.5s;
+// }
+
+// .button:hover {
+//   color: blue;
+//   background: orange;
+// }
